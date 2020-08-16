@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'gem install vimgolf'
+    command: 'vimgolf setup'
